@@ -11,27 +11,26 @@ The Exam Management System is a Java-based application designed to conduct exams
 
 1. **`Main` Class**
    - **Description:** Entry point of the application that reads questions from a file and initializes the `Question` object.
-   - **Location:** `com.mrudula.o1.Main`
-
+  
 2. **`Main2` Class**
    - **Description:** Launches the `ExamConsole` to start the exam process.
-   - **Location:** `com.mrudula.o1.Main2`
+  
 
 3. **`ExamConsole` Class**
    - **Description:** Provides the user interface for starting and conducting the exam. It displays questions, options, and evaluates user answers.
-   - **Location:** `com.mrudula.o1.ExamConsole`
+   
 
 4. **`Question` Class**
    - **Description:** Represents a single question with its options and the correct answer. Includes methods for getting and setting question details and displaying them.
-   - **Location:** `com.mrudula.o1.Question`
+
 
 5. **`QuestionDB` Class**
    - **Description:** Manages a collection of `Question` objects. Initializes with questions read from files via `QuestionFileService`.
-   - **Location:** `com.mrudula.o1.QuestionDB`
+  
 
 6. **`QuestionFileService` Class**
    - **Description:** Handles reading question files from a specified folder and parsing the content into `Question` objects.
-   - **Location:** `com.mrudula.o1.QuestionFileService`
+  
 
 ## File Structure
 
