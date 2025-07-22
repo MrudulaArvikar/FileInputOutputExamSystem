@@ -1,6 +1,6 @@
 # FileInputOutputExamSystem
 
-
+Added CircleCI Setup 
 ## Overview
 
 The Exam Management System is a Java-based application designed to conduct exams using questions stored in text files. The application features a user interface for starting the exam, displaying questions with multiple-choice answers, and scoring user responses.
